@@ -1,0 +1,89 @@
+# Enhanced AI Resume Analyzer Requirements
+
+# Core Framework
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Enhanced NLP and AI
+transformers>=4.30.0
+torch>=2.0.0
+sentence-transformers>=2.2.0
+spacy>=3.6.0
+nltk>=3.8.0
+scikit-learn>=1.3.0
+
+# Web Framework and API
+flask>=2.3.0
+werkzeug>=2.3.0
+
+# Database
+pymysql>=1.1.0
+sqlite3  # Built-in with Python
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.24.0
+regex>=2023.0.0
+
+# Visualization
+plotly>=5.15.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# PDF Processing
+pdfminer3>=2018.12.3.0
+pdfminer.six>=20220524
+PyPDF2>=3.0.0
+
+# Document Processing
+python-docx>=0.8.11
+docx2txt>=0.8
+
+# UI Components
+streamlit-tags>=1.2.8
+streamlit-option-menu>=0.3.0
+streamlit-aggrid>=0.3.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+pytz>=2023.0
+geocoder>=1.38.0
+geopy>=2.3.0
+requests>=2.31.0
+
+# Security and Authentication
+cryptography>=41.0.0
+python-jose>=3.3.0
+passlib>=1.7.4
+
+# Performance and Caching
+joblib>=1.3.0
+diskcache>=5.6.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional but recommended for production
+gunicorn>=21.0.0
+redis>=4.6.0
+celery>=5.3.0
+
+# For advanced features (optional)
+tensorflow>=2.13.0  # For TensorFlow.js integration
+fastapi>=0.103.0    # Alternative to Flask for APIs
+uvicorn>=0.23.0     # ASGI server for FastAPI
+
+# Cloud storage (optional)
+boto3>=1.28.0       # AWS S3 integration
+google-cloud-storage>=2.10.0  # Google Cloud Storage
+
+# Monitoring and logging (optional)
+sentry-sdk>=1.32.0
+structlog>=23.1.0
